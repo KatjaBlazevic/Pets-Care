@@ -1,7 +1,11 @@
 package kb;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
+import java.awt.Font;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class blazevic {
@@ -38,6 +42,12 @@ public class blazevic {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JButton btnNewButton = new JButton("Pomazi me");
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
+		btnNewButton.setFont(new Font("Times New Roman", Font.BOLD, 11));
+		frame.getContentPane().add(btnNewButton, BorderLayout.CENTER);
 	}
 
 }
