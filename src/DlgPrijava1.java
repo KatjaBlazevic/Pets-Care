@@ -192,7 +192,7 @@ public class DlgPrijava1 extends JDialog {
 		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\natal\\Downloads\\Korisnicko-Sucelje\\Korisnicko-Sucelje\\Pets&Care - logo.png"));
 		//ImageIcon img = new ImageIcon(this.getClass().getResource("Pets&Care-logo.png"));
 		//lblNewLabel.setIcon(img);
-		lblNewLabel.setBounds(473, 0, 153, 134);
+		lblNewLabel.setBounds(213, 3, 153, 134);
 		contentPanel.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("Nema\u0161 ra\u010Dun? Registriraj se!");
@@ -211,6 +211,11 @@ public class DlgPrijava1 extends JDialog {
 		btnNewButton_1.setFont(new Font("Perpetua Titling MT", Font.BOLD, 10));
 		btnNewButton_1.setBounds(20, 351, 147, 23);
 		contentPanel.add(btnNewButton_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("New label");
+		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Korisnik\\git\\Pets_and_Care\\src\\Pets&Care - logo.png"));
+		lblNewLabel_2.setBounds(471, 10, 147, 127);
+		contentPanel.add(lblNewLabel_2);
 	
 
 		
